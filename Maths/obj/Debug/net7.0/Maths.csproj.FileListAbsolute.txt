@@ -1,0 +1,15 @@
+C:\Users\jords\Documents\StudyProjects\Maths\Maths\Maths\bin\Debug\net7.0\Maths.exe
+C:\Users\jords\Documents\StudyProjects\Maths\Maths\Maths\bin\Debug\net7.0\Maths.deps.json
+C:\Users\jords\Documents\StudyProjects\Maths\Maths\Maths\bin\Debug\net7.0\Maths.runtimeconfig.json
+C:\Users\jords\Documents\StudyProjects\Maths\Maths\Maths\bin\Debug\net7.0\Maths.dll
+C:\Users\jords\Documents\StudyProjects\Maths\Maths\Maths\bin\Debug\net7.0\Maths.pdb
+C:\Users\jords\Documents\StudyProjects\Maths\Maths\Maths\obj\Debug\net7.0\Maths.csproj.AssemblyReference.cache
+C:\Users\jords\Documents\StudyProjects\Maths\Maths\Maths\obj\Debug\net7.0\Maths.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jords\Documents\StudyProjects\Maths\Maths\Maths\obj\Debug\net7.0\Maths.AssemblyInfoInputs.cache
+C:\Users\jords\Documents\StudyProjects\Maths\Maths\Maths\obj\Debug\net7.0\Maths.AssemblyInfo.cs
+C:\Users\jords\Documents\StudyProjects\Maths\Maths\Maths\obj\Debug\net7.0\Maths.csproj.CoreCompileInputs.cache
+C:\Users\jords\Documents\StudyProjects\Maths\Maths\Maths\obj\Debug\net7.0\Maths.dll
+C:\Users\jords\Documents\StudyProjects\Maths\Maths\Maths\obj\Debug\net7.0\refint\Maths.dll
+C:\Users\jords\Documents\StudyProjects\Maths\Maths\Maths\obj\Debug\net7.0\Maths.pdb
+C:\Users\jords\Documents\StudyProjects\Maths\Maths\Maths\obj\Debug\net7.0\Maths.genruntimeconfig.cache
+C:\Users\jords\Documents\StudyProjects\Maths\Maths\Maths\obj\Debug\net7.0\ref\Maths.dll
