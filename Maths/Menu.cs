@@ -25,7 +25,7 @@ internal class Menu
 
             var gameSelected = Console.ReadLine();
 
-            switch (gameSelected.Trim().ToLower())aths\Maths
+            switch (gameSelected.Trim().ToLower())
             {
                 case "v":
                     Helpers.PrintGames();
