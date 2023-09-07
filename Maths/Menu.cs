@@ -19,13 +19,13 @@ internal class Menu
                  A - Addition
                  S - Subtraction
                  M - Multiplication
-                 D - Division
+                 D - Division  
                  Q - Quit the program");
             Console.WriteLine("------------------------------------------");
 
             var gameSelected = Console.ReadLine();
 
-            switch (gameSelected.Trim().ToLower())aths\Maths
+            switch (gameSelected.Trim().ToLower())
             {
                 case "v":
                     Helpers.PrintGames();

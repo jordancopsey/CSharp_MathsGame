@@ -19,8 +19,11 @@
                 firstNumber = random.Next(1, 9);
                 secondNumber = random.Next(1, 9);
 
-                Console.WriteLine($"{firstNumber} + {secondNumber}");
+                Console.WriteLine($" {firstNumber} + {secondNumber}");
+                
                 var result = Console.ReadLine();
+
+                result = Helpers.ValidateResult(result);
 
                 if (int.Parse(result) == firstNumber + secondNumber)
                 {
@@ -40,7 +43,7 @@
                     Console.ReadLine();
                 }
             }
-            Helpers.AddToHistory(score, "Addition");
+            Helpers.AddToHistory(score, GameType.Addition);
         }
 
         internal void SubtractionGame(string message)
@@ -60,8 +63,11 @@
                 firstNumber = random.Next(1, 9);
                 secondNumber = random.Next(1, 9);
 
-                Console.WriteLine($"{firstNumber} - {secondNumber}");
+                Console.WriteLine($" {firstNumber} - {secondNumber}");
+                
                 var result = Console.ReadLine();
+
+                result = Helpers.ValidateResult(result);
 
                 if (int.Parse(result) == firstNumber - secondNumber)
                 {
@@ -81,7 +87,7 @@
                     Console.ReadLine();
                 }
             }
-            Helpers.AddToHistory(score, "Subtraction");
+            Helpers.AddToHistory(score, GameType.Subtraction);
         }
 
         internal void MultiplicationGame(string message)
@@ -101,8 +107,11 @@
                 firstNumber = random.Next(1, 9);
                 secondNumber = random.Next(1, 9);
 
-                Console.WriteLine($"{firstNumber} * {secondNumber}");
+                Console.WriteLine($" {firstNumber} * {secondNumber}");
+
                 var result = Console.ReadLine();
+
+                result = Helpers.ValidateResult(result);
 
                 if (int.Parse(result) == firstNumber * secondNumber)
                 {
@@ -122,7 +131,7 @@
                     Console.ReadLine();
                 }
             }
-            Helpers.AddToHistory(score, "Multiplication");
+            Helpers.AddToHistory(score, GameType.Multiplication);
         }
 
         internal void DivisionGame(string message)
@@ -138,9 +147,11 @@
                 var firstNumber = divisionNumbers[0];
                 var secondNumber = divisionNumbers[1];
 
-                Console.WriteLine($"{firstNumber} / {secondNumber}");
+                Console.WriteLine($" {firstNumber} / {secondNumber}");
+
                 var result = Console.ReadLine();
 
+                result = Helpers.ValidateResult(result);
 
                 if (int.Parse(result) == firstNumber / secondNumber)
                 {
@@ -160,7 +171,7 @@
                     Console.ReadLine();
                 }
             }
-            Helpers.AddToHistory(score, "Division");
+            Helpers.AddToHistory(score, GameType.Division);
         }
 
     }

@@ -6,6 +6,8 @@
 
         internal static void PrintGames()
         {
+            var gamesToPrint = games.Where(x => x.Type == GameType.Division);
+
             Console.Clear();
             Console.WriteLine("Games History");
             Console.WriteLine("------------------------");
@@ -17,8 +19,21 @@
             Console.WriteLine("Press any key to return to Main Menu");
             Console.ReadLine();
         }
+        internal static string GetName()
+        {
+            Console.WriteLine("Please type your name");
+            var name = Console.ReadLine();
 
-        internal static void AddToHistory(int gameScore, string gameType)
+            while (string.IsNullOrEmpty(name))
+            {
+                Console.WriteLine("Name can't be empty");
+                name = Console.ReadLine();
+            }
+            return name;
+
+        }
+
+        internal static void AddToHistory(int gameScore, GameType gameType)
         {
             games.Add(new Game
             {
@@ -49,6 +64,16 @@
 
             Console.WriteLine(result);
 
+            return result;
+        }
+
+        internal static string? ValidateResult(string result)
+        {
+            while (string.IsNullOrEmpty(result) || !Int32.TryParse(result, out _))
+            {
+                Console.WriteLine("Your Answer needs to be an integer. Try Again.");
+                result = Console.ReadLine();
+            }
             return result;
         }
     }
