@@ -2,7 +2,7 @@
 
 # Here is my first project in C#, a maths game.
 
-https://github.com/jordancopsey/CSharp_MathsGame/assets/77833509/33932c12-157d-4950-a123-79753366ca3d
+https://github.com/jordancopsey/CSharp_MathsGame/assets/77833509/1b5b6533-aef3-43c4-a82b-422bc30e8d27
 
 The requirements are as follows:
 Create a Math game containing the 4 basic operations
