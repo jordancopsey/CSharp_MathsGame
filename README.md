@@ -1,6 +1,6 @@
 # Maths Game
 
-#Here is my first project in C#, a maths game.
+# Here is my first project in C#, a maths game.
 
 https://github.com/jordancopsey/CSharp_MathsGame/assets/77833509/33932c12-157d-4950-a123-79753366ca3d
 
